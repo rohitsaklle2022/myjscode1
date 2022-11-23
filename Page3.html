@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <script>
+            /*
+                1. On a Single Variable
+                2. Check Multiple Equal Conditions
+
+                    Switch
+            */
+            function calculate()
+            {
+                var grade = document.getElementById('box').value;
+                switch(grade) 
+                {
+                    case "a" : 
+                    case "A" : alert("Salary 25000");
+                                break;    
+                    case "b" : 
+                    case "B" : alert("Salary 15000");
+                                break;        
+                    case "c" : 
+                    case "C" : alert("Salary 10000");
+                                break;        
+                    case "d" : 
+                    case "D" : alert("Salary 8000");
+                                break;  
+                    default : 
+                            alert("Wrong Grade !")                                                                                         
+                }
+            }
+        </script>
+    </head>
+    
+    <body>
+
+        <input type="text" id="box" placeholder="Grade (A/B/C/D) "> &nbsp;
+        <button onclick="calculate()">Okay</button>
+    </body>
+</html>
+
+   

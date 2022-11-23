@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <script>
+            /*
+                1. On a Single Variable
+                2. Check Multiple Equal Conditions
+
+                    Switch
+            */
+            function calculate()
+            {
+                var day = document.getElementById('box').value;
+                switch(day) // 5
+                {
+                    case "1" : alert("Monday");
+                                break;
+                    case "2" : alert("Thuesday");
+                                break;
+                    case "3" : alert("Wednesday");
+                                break;
+                    case "4" : alert("Thursday");
+                                break;
+                    case "5" : alert("Friday");
+                                break;
+                    case "6" : alert("Saturday");
+                                break;
+                    case "7" : alert("Sunday");
+                                break;
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <input type="text" id="box" placeholder="Week Days"> &nbsp;
+        <button onclick="calculate()">Okay</button>
+    </body>
+</html>
